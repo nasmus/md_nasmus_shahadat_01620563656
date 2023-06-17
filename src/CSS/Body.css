@@ -1,0 +1,266 @@
+.body{
+    margin-left: 3%;
+    margin-right: 3%;
+    position: relative;
+}
+.body_titelCotent{
+    display: flex;
+    margin-top: 50px;
+}
+.body_title {
+    width: 60%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.body_floting {
+    position: absolute;
+    background: #fff;
+    width: 27%;
+    margin-left: 120px;
+    margin-right: 13px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+    right: 0;
+    top: 0;
+    
+    
+}
+.floting_title{
+    display: flex;
+    justify-content: space-between;
+}
+.ff{
+    display: flex;
+    justify-content: center;
+    padding: 15px;   
+}
+.ff .MuiSvgIcon-root {
+    font-size: 18px;
+}
+.floting_date {
+    padding: 10px;
+}
+.fd-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.fd-1 > p {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+.select > select {
+    width: 99.5%;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+}
+.body_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    display: flex;
+}
+.ff-1{
+    height: 100px;
+    width: 200px;
+    display: flex;
+    border: 1px solid #DDDDDD;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 12px;
+}
+.ff-1 > img {
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+}
+.ff-1 > p {
+    padding-left: 20px;
+}
+
+.zz {
+    align-items: center;
+    margin-top: 30px;
+}
+
+.zz-2 {
+    display: flex;
+    align-items: center;
+}
+.zz-2 > img {
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+}
+.zz-1 > p {
+    margin-left: 53px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #979595;
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card_1 {
+    width: 60%;
+    border-radius: 12px;
+    background: #F0EFE9;
+}
+
+.card_profile {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.left > p {
+    font-size: 14px;
+}
+.right > h2 {
+    padding-bottom: 5px;
+}
+.right > p {
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+.right > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right .MuiSvgIcon-root{
+    font-size: 18px;
+}
+.card_details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 16px;
+    margin-left: 23%;
+
+}
+.cd-1 {
+    display: flex;
+    align-items: center;
+}
+.cd-1 > p{
+    padding-left: 13px;
+}
+.place > h3{
+    padding-bottom: 30px;
+}
+.place_content{
+    padding-bottom: 10px;
+}
+.place > p {
+    padding-bottom: 10px;
+} 
+.place > a {
+    padding-bottom: 40px;
+}
+.lineBreak{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.ws {
+    margin-bottom: 50px;
+}
+.ws > h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.ws-1{
+    border: 1px solid rgb(210, 207, 207);
+    width: 160px;
+    
+    border-radius: 12px;
+    padding: 20px;
+}
+.ws-1 >img {
+    height: 30px;
+    width: 30px;
+    padding-bottom: 14px;
+    
+}
+.ws-1 > h4,p{
+    padding-bottom: 7px;
+}
+.office > h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.office > button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 40px 15px 40px;
+    border-radius: 12px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    border: 1px solid gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+.office > button:hover{
+background: rgb(241, 240, 240);
+}
+.op {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.gg {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.gg > img {
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.calander > h2 {
+    margin-top: 40px;
+    padding-bottom: 5px;
+}
+.calander > p {
+    padding-bottom: 30px;
+}
+.react-calendar {
+    border: none;
+}

@@ -1,0 +1,73 @@
+.review {
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+.review {
+    margin-bottom: 40px;
+}
+.review > button {
+    padding: 15px 40px 15px 40px;
+    border-radius: 12px;
+    border: none;
+    background: transparent;
+    border: 1px solid gray;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.review > button:hover{
+    background-color: rgb(240, 237, 237);
+}
+.review > h2 {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.review__rating{
+    display: flex;
+}
+.review__content_left {
+    width: 50%;
+    margin-right: 100px;
+}
+.review__content_right {
+    width: 50%;
+}
+.line > hr {
+    width: 40px;
+    border: 2px solid black;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.review__content_1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.fg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review_content {
+    margin: 40px 20px 20px 0px;
+}
+.hg{
+    display: flex;
+    padding-bottom: 20px;
+}
+.hg > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.hg-1 > p {
+    padding-top: 5px;
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}

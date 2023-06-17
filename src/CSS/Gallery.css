@@ -1,0 +1,73 @@
+.gallery{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.gallery > h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.gallery_content{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.sub_hadding_left {
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+}
+
+.sub_hadding_left .MuiSvgIcon-root{
+    font-size: 16px;
+    padding-right: 5px;
+    
+}
+.sub_hadding_right {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.sub_hadding_right .MuiSvgIcon-root{
+    font-size: 16px;
+}
+.parent-div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .parent-div .first-image {
+    width: 50%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .first-image > img {
+    width: 98.5%;
+    height: 296px;
+    padding-right: 5px;
+    gap: 5px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .parent-div .other-images {
+    width: 50%;
+    height: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    
+  }
+
+  .parent-div .other-images img {
+    width: 48%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+  }
+  .sub_hadding_left > p > a {
+    color: black;
+  }
+  .sub_hadding_right > p > a {
+    color: black;
+  }
